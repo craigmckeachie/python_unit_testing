@@ -44,3 +44,19 @@ python -m unittest src.tests.test_temp_conversions
 ```
 python -m unittest discover -s ./src/tests
 ```
+
+## Running Test Suite
+
+```
+# works
+python3 -m unittest src.tests.main
+```
+
+```
+# doesn't work
+python -m unittest src.tests.main
+```
+
+```
+pip install requests
+```
