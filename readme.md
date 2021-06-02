@@ -60,3 +60,25 @@ python -m unittest src.tests.main
 ```
 pip install requests
 ```
+
+## Code Coverage
+
+```
+pip install coverage
+```
+
+### Run coverage
+
+```
+python3 -m coverage run -m unittest src.tests.main
+```
+
+### Generate Report
+
+```
+python3 -m coverage html
+```
+
+```
+python3 -m coverage html --omit="src/tests/*"
+```

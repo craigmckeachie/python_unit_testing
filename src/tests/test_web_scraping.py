@@ -35,6 +35,7 @@ class TestWebScraping(unittest.TestCase):
         print('setup')
         self.url = "http://localhost/"
 
+    # @unittest.skip('skip for demo')
     @patch("src.web_scraping.get")
     def test_get_zero_page_header(self, mock_get):
         result = "There are no h1 elements"
